@@ -1,10 +1,7 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
-}
-.checkbox {
-  text-align: left;
+  background-image: url('../signupbg.jpg');
 }
 
 .form-signin {
@@ -18,7 +15,6 @@ body {
 }
 .form-signin .checkbox {
   font-weight: normal;
-
 }
 .form-signin .form-control {
   position: relative;
