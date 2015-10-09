@@ -1,7 +1,9 @@
   <main>
+  <p> Choose your event:</p>
 <% results.forEach(function (result) { %>
   <p> <%= result.name + ' : ' + result.count %> </p>
 <% }) %>
+<p> <%= 'My interests: ' + currentUser.interests %> </p>
     <hr>
 <div class="container">
   <div class="row">
