@@ -20,6 +20,9 @@ var strategy = new LocalStrategy(
         // Create a new user.
         console.log('Creating a new user');
         var newUser = new User();
+        newUser.first_name = req.body.first_name;
+        newUser.last_name = req.body.last_name;
+        newUser.location = req.body.location;
         newUser.local.email = email;
         newUser.local.password = newUser.encrypt(password);
 

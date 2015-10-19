@@ -1,4 +1,3 @@
-a:focus, a:hover {
-    color: #35b278;
-    text-decoration: underline;
+body {
+  background-color: #fff;
 }
